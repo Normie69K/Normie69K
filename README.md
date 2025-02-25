@@ -39,10 +39,6 @@
   <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/> </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/> </a>
   <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/> </a>
-  <a href="https://portswigger.net/burp" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Burp_Suite_Logo.svg" alt="Burp Suite" width="50" height="50"/> </a>
-  <a href="https://www.nmap.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Nmap_logo.svg" alt="Nmap" width="50" height="50"/> </a>
-  <a href="https://github.com/radareorg/radare2" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Radare2-logo.png" alt="Radare2" width="50" height="50"/> </a>
-  <a href="https://ghidra-sre.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ghidra_Logo.svg/120px-Ghidra_Logo.svg.png" alt="Ghidra" width="50" height="50"/> </a>
 </p>
 
 ## 📊 GitHub Stats:
