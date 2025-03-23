@@ -3,7 +3,7 @@
 <h3 align="center">🛡️ Cybersecurity Enthusiast | 💻 Backend Developer | 📱 App Developer</h3>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" height="150" alt="Cool GIF" />
+  <img src="https://raw.githubusercontent.com/normie69K/normie69K/main/assets/rika.gif" height="250" alt="Cool GIF" />
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
 
 ---
 
-## 🐍 **GitHub Contribution Snake Game**
+## 🐍 **GitHub Snake Game**
 <p align="center">
   <img src="https://raw.githubusercontent.com/normie69K/normie69K/output/snake.svg" alt="Snake Animation">
 </p>
@@ -61,7 +61,7 @@
 
 ## 👾 **GitHub Pac-Man Game**
 <p align="center">
-  <img src="https://github.com/normie69K/normie69K/raw/output/github-pacman.svg" alt="Pac-Man Animation">
+  <img src="https://raw.githubusercontent.com/normie69K/normie69K/output/pacman-contribution-graph.svg" alt="Pac-Man Animation">
 </p>
 
 ---
