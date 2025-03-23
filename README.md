@@ -43,15 +43,6 @@
 
 ---
 
-## 🏆 **GitHub Stats**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=normie69K&show_icons=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=normie69K&theme=dracula&hide_border=true" height="160" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=normie69K&layout=compact&theme=dracula&hide_border=true" height="160" alt="Top Languages" />
-</p>
-
----
-
 ## 🐍 **GitHub Snake Game**
 <p align="center">
   <img src="https://raw.githubusercontent.com/normie69K/normie69K/output/snake.svg" alt="Snake Animation">
@@ -61,7 +52,16 @@
 
 ## 👾 **GitHub Pac-Man Game**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/normie69K/normie69K/output/pacman-contribution-graph.svg" alt="Pac-Man Animation">
+  <img src="https://raw.githubusercontent.com/normie69K/normie69K/output/pacman-contribution-graph-dark.svg" alt="Pac-Man Animation">
+</p>
+
+---
+
+## 🏆 **GitHub Stats**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=normie69K&show_icons=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=normie69K&theme=dracula&hide_border=true" height="160" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=normie69K&layout=compact&theme=dracula&hide_border=true" height="160" alt="Top Languages" />
 </p>
 
 ---
