@@ -1,19 +1,15 @@
-name: Generate Snake Animation
+name: Generate Snake & Pac-Man Animations
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
+    - cron: "0 */12 * * *"  # Runs every 12 hours
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
-  generate_snake_animation:
-    name: Generate & Deploy Snake Animation
+  generate_animations:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -21,19 +17,26 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      # Generate Snake Animation
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=dracula&color_snake=#ff4500,#ff8c00,#ffd700,#9acd32,#20b2aa,#1e90ff,#9932cc&speed=3&frame_duration=50
+          outputs: dist/snake.svg?palette=github-dark
 
-      - name: Cache Snake SVG for Faster Builds
-        uses: actions/cache@v3
+      # Generate Pac-Man Animation (Black Theme)
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          path: dist/snake.svg
-          key: snake-${{ github.run_id }}
-          restore-keys: snake-
+          github_user_name: ${{ github.repository_owner }}
+          theme: black  # Black theme
+          background: transparent
+          pacman_color: "#FFD700"  # Gold Pac-Man
+          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32"  # Red, Blue, Purple, Green Ghosts
+          speed: 2
+          frame_duration: 60
 
+      # Deploy both animations to the `output` branch
       - name: Commit and Push Updates
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -43,4 +46,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Success Message
-        run: echo "Snake animation updated successfully!"
+        run: echo "Snake & Pac-Man animations updated successfully!"
