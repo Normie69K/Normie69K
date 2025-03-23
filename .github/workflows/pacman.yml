@@ -1,0 +1,43 @@
+name: Generate Pac-Man Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate_pacman_animation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          theme: dracula
+          background: transparent
+          pacman_color: "#FFD700"
+          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32"
+          speed: 2
+          frame_duration: 60
+
+      - name: Commit and Push Updates
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Success Message
+        run: echo "Pac-Man animation updated successfully!"
