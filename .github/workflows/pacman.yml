@@ -29,12 +29,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           theme: dracula
           background: transparent
-          pacman_color: "#FFD700" # Gold color for Pac-Man
-          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32" # Red, Blue, Purple, Green ghosts
+          pacman_color: "#FFD700"
+          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32"
           speed: 2
           frame_duration: 60
 
-      - name: List Generated Files (Debugging)
+      - name: Move File to `dist/`
+        run: mv pacman-contribution-graph.svg dist/ || echo "File not found"
+
+      - name: Debugging - List Files
         run: ls -R dist
 
       - name: Commit and Push Updates
