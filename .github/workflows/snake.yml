@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate_snake_animation:
     name: Generate & Deploy Snake Animation
-    runs-on: manjaro
+    runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
