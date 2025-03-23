@@ -20,16 +20,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Create Output Directory
+        run: mkdir -p dist
+
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           theme: dracula
           background: transparent
-          pacman_color: "#FFD700"
-          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32"
+          pacman_color: "#FFD700" # Gold color for Pac-Man
+          ghost_color: "#FF4500,#1E90FF,#9932CC,#32CD32" # Red, Blue, Purple, Green ghosts
           speed: 2
           frame_duration: 60
+
+      - name: List Generated Files (Debugging)
+        run: ls -R dist
 
       - name: Commit and Push Updates
         uses: crazy-max/ghaction-github-pages@v3.1.0
