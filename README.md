@@ -1,55 +1,72 @@
-<h1 align="center">Hi 👋, I'm Karan Singh</h1>
-<h3 align="center">Android Developer | Cybersecurity Enthusiast | CTF Player</h3>
+<h1 align="center">🚀 Hey, I'm <span style="color:#00FF00">Karan Singh</span>! 👋</h1>
+
+<h3 align="center">🛡️ Cybersecurity Enthusiast | 💻 Backend Developer | 📱 App Developer</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=normie69k&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" height="150" alt="Cool GIF" />
 </p>
 
-## 🚀 About Me
-- 🔥 Passionate about **Android Development, Cybersecurity, and Reverse Engineering**  
-- 🔓 CTF player, exploring **web exploitation, reverse engineering, and binary exploitation**  
-- 🎯 Learning **penetration testing, exploit development, and malware analysis**  
-- 📱 Building **efficient and secure Android applications**  
-- 💡 Always eager to **learn new technologies and contribute to open-source**  
-
-## 🎯 Areas of Interest:
-- 🏆 **Capture The Flag (CTF)** – Web, Crypto, Reverse Engineering, Pwn  
-- 💻 **Android App Development** – Secure & efficient mobile applications  
-- 🔍 **Reverse Engineering** – Decompiling APKs, finding vulnerabilities  
-- 🛡️ **Penetration Testing** – Web & mobile security assessments  
-- 🎭 **Steganography** – Hiding data in images & files  
-
-## 📫 How to Reach Me:
 <p align="center">
-  <a href="https://www.linkedin.com/in/karan-singh-725928333" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="40" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=600&height=50&lines=Cybersecurity+%7C+App+Development+%7C+Backend;Problem+Solver+%7C+Tech+Explorer;Passionate+Learner+%7C+CTF+Player" alt="Typing SVG">
+</p>
+
+---
+
+## 🔗 **Connect with Me**
+<p align="center">
+  <a href="mailto:karansingh73457@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="www.linkedin.com/in/karan-singh-725928333" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
-## 🛠️ Tech Stack & Tools:
+---
+
+## 🚀 **Tech Stack**
 <p align="center">
-  <a href="https://developer.android.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="50" height="50"/> </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" width="50" height="50"/> </a>
-  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="50" height="50"/> </a>
-  <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/> </a>
-  <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="50" height="50"/> </a>
-  <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="50" height="50"/> </a>
-  <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/> </a>
-  <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/> </a>
-  <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/> </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3" />
+  <img src="https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain" />
+  <img src="https://img.shields.io/badge/Reverse%20Engineering-FF5733?style=for-the-badge&logo=gnuradio&logoColor=white" alt="Reverse Engineering" />
+  <img src="https://img.shields.io/badge/CTF-9D00FF?style=for-the-badge&logo=hackthebox&logoColor=white" alt="CTF" />
 </p>
 
-## 📊 GitHub Stats:
+---
+
+## 🏆 **GitHub Stats**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=normie69k&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=normie69K&show_icons=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=normie69K&theme=dracula&hide_border=true" height="160" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=normie69K&layout=compact&theme=dracula&hide_border=true" height="160" alt="Top Languages" />
 </p>
 
+---
+
+## 🐍 **GitHub Contribution Snake Game**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=normie69k&show_icons=true&locale=en" alt="GitHub Stats" />
+  <img src="https://github.com/normie69K/normie69K/raw/output/github-contribution-grid-snake.svg" alt="Snake Animation">
 </p>
 
+---
+
+## 👾 **GitHub Pac-Man Game**
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=normie69k&" alt="GitHub Streak" />
+  <img src="https://github.com/normie69K/normie69K/raw/output/github-pacman.svg" alt="Pac-Man Animation">
+</p>
+
+---
+
+## 👀 **Profile Visits**
+<p align="center">
+  <img src="https://profile-counter.glitch.me/normie69K/count.svg" alt="Profile Counter" />
 </p>
